@@ -1,0 +1,32 @@
+.title4 a{
+    color: tomato;
+}
+.toolsearch{
+    background-image: url("../img/bg.jpg");
+    padding: 100px 0px;
+}
+.toolsearch button{
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: tomato;
+    color: white;
+}
+.toolsearch input{
+    border-radius: 5px;
+    width: 40%;
+    border-color: transparent;
+}
+.exp-food{
+    text-align: center;
+}
+.exp-food img{
+    max-width: 60%;
+    border-radius: 10px;
+}
+.exp-food h3{
+    color: white;
+    transform: translate(0%, -200%);
+}
+.img_menu{
+    width: 20%;
+}
