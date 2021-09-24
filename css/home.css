@@ -28,5 +28,25 @@
     transform: translate(0%, -200%);
 }
 .img_menu{
+    margin: 3% 3%;
     width: 20%;
+}
+.img_menu img{
+    border-radius: 8px;
+}
+.food-menu-card{
+    border-radius: 10px;
+}
+.card-body-foodmenu{
+    padding-right: 0px;
+}
+.card-body-foodmenu p{
+    color: gray;
+    font-size: small;
+}
+.foodmenu-link{
+    text-align: center;
+    color:tomato;
+    font-weight: bold;
+    text-decoration: none;
 }
