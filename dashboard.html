@@ -17,18 +17,29 @@
     <header>
         <div class="container-fluid">
             <div class="row">
-                <ul class="nav justify-content-end">
+                <ul class="nav justify-content-center">
                     <li class="nav-item title6">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item title6">
-                        <a class="nav-link" href="#">Admin</a>
+                      <div class="dropdown">
+                        <button class="btn btn-toolbar link-danger dropdown-toggle" type="button" id="dropdownMenuButton1"
+                          data-bs-toggle="dropdown" aria-expanded="false">
+                          Admin
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="manage-food.html">Mamage Food</a></li>
+                          <li><a class="dropdown-item" href="manage-categories.html">Manage Categories</a></li>
+                          <li><a class="dropdown-item" href="manage-user.html">Manage User</a></li>
+                          <li><a class="dropdown-item" href="manage-oder.html">Manage Order</a></li>
+                        </ul>
+                      </div>
                     </li>
                     <li class="nav-item title6">
-                        <a class="nav-link" href="#">Categories</a>
+                        <a class="nav-link" href="ex-food.html">Categories</a>
                     </li>
                     <li class="nav-item title6">
-                        <a class="nav-link" href="#">Food</a>
+                        <a class="nav-link" href="foodmenu.html">Food</a>
                     </li>
                     <li class="nav-item title6">
                         <a class="nav-link" href="#">Order</a>
@@ -84,7 +95,7 @@
         </div>
     </main>
     <footer style="background-color: tomato;">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row" style="text-align: center;">
                 <p style="margin: 10px 0px;">
                     2020 All rights reserved, Food House. Developed by - 

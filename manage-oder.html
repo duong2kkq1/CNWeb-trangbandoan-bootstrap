@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Dashboard.css">
+    <title>Manage Order</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item title6">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item title6">
+                      <div class="dropdown">
+                        <button class="btn btn-toolbar link-danger dropdown-toggle" type="button" id="dropdownMenuButton1"
+                          data-bs-toggle="dropdown" aria-expanded="false">
+                          Admin
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="manage-food.html">Mamage Food</a></li>
+                          <li><a class="dropdown-item" href="manage-categories.html">Manage Categories</a></li>
+                          <li><a class="dropdown-item" href="manage-user.html">Manage User</a></li>
+                          <li><a class="dropdown-item" href="manage-oder.html">Manage Order</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="nav-item title6">
+                        <a class="nav-link" href="ex-food.html">Categories</a>
+                    </li>
+                    <li class="nav-item title6">
+                        <a class="nav-link" href="foodmenu.html">Food</a>
+                    </li>
+                    <li class="nav-item title6">
+                        <a class="nav-link" href="#">Order</a>
+                    </li>
+                    <li class="nav-item title6">
+                        <a class="nav-link" href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid" style="background-color: #cccc;">
+            <div class="container">
+                <div class="row">
+                    <h1>Manager Order</h1>
+                </div>
+                <div class= "row">
+                    <button class="btn-primary" style="width: max-content;"> Add Food</button>
+                </div>
+                <div class="row">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="col-md-1">S.N.</th>
+                                <th class="col-md-1">Food</th>
+                                <th class="col-md-1">Price</th>
+                                <th class="col-md-1">Qty.</th>
+                                <th class="col-md-1">Total</th>
+                                <th class="col-md-1">Order Date</th>
+                                <th class="col-md-1">Status</th>
+                                <th class="col-md-1">Customer Name</th>
+                                <th class="col-md-1">Contact</th>
+                                <th class="col-md-1">Email</th>
+                                <th class="col-md-1">Address</th>
+                                <th class="col-md-1">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mixed Pizza</td>
+                                <td>10.00</td>
+                                <td>2</td>
+                                <td>20.00</td>
+                                <td>2020-11-30 04:07:17</td>
+                                <td style="color: green;">Delivered</td>
+                                <td>Jana Bush</td>
+                                <td>+1 (562) 101-2028</td>
+                                <td>tydujv@gmail.cm</td>
+                                <td>England</td>
+                                <td>
+                                    <p class="bg-success">Updated Order</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Best Burger</td>
+                                <td>4.00</td>
+                                <td>4</td>
+                                <td>16.00</td>
+                                <td>2020-11-30 03:22:32</td>
+                                <td style="color: green;">Delivered</td>
+                                <td>Lê Hoàng Dương</td>
+                                <td>+84 (034) 751-3801</td>
+                                <td>duongle.w01@gmail.cm</td>
+                                <td>VietNam</td>
+                                <td>
+                                    <p class="bg-success">Updated Order</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Sadeko Momo</td>
+                                <td>6.00</td>
+                                <td>3</td>
+                                <td>18.00</td>
+                                <td>2020-11-25 06:10:00</td>
+                                <td style="color: red;">Cancelled</td>
+                                <td>Hồ Hiển Vinh</td>
+                                <td>+84 (034) 389-0323</td>
+                                <td>vinhocbo@gmail.cm</td>
+                                <td>VietNam</td>
+                                <td>
+                                    <p class="bg-success">Updated Order</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer style="background-color: tomato;">
+        <div class="container-fluid">
+            <div class="row" style="text-align: center;">
+                <p style="margin: 10px 0px;">
+                    2020 All rights reserved, Food House. Developed by -
+                    <a href="" style="color: blue; text-decoration: none;">DuongLe</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

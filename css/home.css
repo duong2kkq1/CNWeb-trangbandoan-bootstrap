@@ -1,5 +1,9 @@
 .title4 a{
-    color: tomato;
+    padding: 0px 10px;
+    color: #ff334e;
+}
+.title4 a:hover{
+    color: orange;
 }
 .toolsearch{
     background-image: url("../img/bg.jpg");
@@ -8,7 +12,7 @@
 .toolsearch button{
     border-radius: 5px;
     border-color: transparent;
-    background-color: tomato;
+    background-color: #ff334e;
     color: white;
 }
 .toolsearch input{
@@ -26,6 +30,7 @@
 .exp-food h3{
     color: white;
     transform: translate(0%, -200%);
+    margin: 0px 20%;
 }
 .img_menu{
     margin: 3% 3%;
@@ -46,7 +51,14 @@
 }
 .foodmenu-link{
     text-align: center;
-    color:tomato;
+    color:#ff334e;
     font-weight: bold;
     text-decoration: none;
+}
+.btn{
+    background-color: #ff334e;
+    color: white;
+}
+.foot p a:hover{
+    color: orange !important;
 }
